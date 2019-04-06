@@ -73,6 +73,10 @@ ul li a.active-link {
     padding: 15px;
 }
 
+.article-form form label {
+    padding-bottom: 15px;
+}
+
 .article-form input[type="text"], .article-form textarea  {
     border: 1px solid #333333;
     border-radius: 3px;
