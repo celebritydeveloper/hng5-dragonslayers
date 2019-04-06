@@ -39,6 +39,20 @@ body {
     width: 25%;      
 }
 
+.user-image {
+    border: 2px solid #086963;
+    border-radius: 50%;
+    display: inline-block;
+    overflow: hidden;
+    height: 130px;
+    width: 130px;
+}
+
+.user-image img {
+    height: auto;
+    width: 100%;
+}
+
 .navigation {
     padding: 0;
     list-style-type: none;
