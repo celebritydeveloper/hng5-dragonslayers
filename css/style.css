@@ -111,6 +111,30 @@ ul li a.active-link {
     padding: 0 75px;
 }
 
+.title {
+    margin-bottom: 0;
+}
+
+.post-time, .author-name {
+    float: left;
+    margin-right: 10px;
+}
+
+.post-time {
+    font-size: 11px;
+    line-height: normal;
+    color: #A7A7A7;
+}
+
+.author-name {
+    font-weight: bold;
+    font-size: 11px;
+    line-height: normal;
+    color: #717171;
+}
+
+
 .article-text {
     padding: 0 75px;
+    text-align: justify;
 }
