@@ -12,6 +12,10 @@ body {
     padding: 0;
 }
 
+.clear-fix {
+    clear: both;
+}
+
 .btn {
     background: #086963;
     border: #086963;
@@ -65,6 +69,7 @@ ul li a.active-link {
 .article-form  {
     background: #FCFCFC;
     border-radius: 4px;
+    margin-bottom: 70px;
     padding: 15px;
 }
 
@@ -87,6 +92,25 @@ ul li a.active-link {
 
 .post {
     border-top: 0.5px solid #DADADA;
+    position: relative;
     margin-top: 40px;
     padding: 20px 0;
+}
+
+.author-image {
+    position: absolute;
+    top: 40px;
+}
+
+.author-image img {
+    height: auto;
+    width: 50%
+}
+
+.article-title {
+    padding: 0 75px;
+}
+
+.article-text {
+    padding: 0 75px;
 }
